@@ -96,7 +96,7 @@ Note: Set `shouldDisplayUI` to `NO` to tell SDK not show login form, just open l
 
 To logout user, just call
 
-```
+```objective-c
 [App360IDSDK logout];
 ```
 
