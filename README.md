@@ -63,11 +63,43 @@ Choose '**Create groups**' and select '**Copy items if needed**' to copy sdk to 
 
 ##Initialize
 
-Describe initialize method here
+To initialize App360ID SDK, in AppDelegate.m, call method
+
+```objective-c
+[App360IDSDK initializeWithAppId:@"your-app-id" appSecret:@"your-app-secret"];
+```
+
+Don't forget import SDK's header
+
+```objective-c
+#import <App360IDSDK/App360IDSDK.h>
+```
 
 ##Login
 
-Describe login method here
+To login, call login method
+
+
+```objective-c
+[App360IDSDK loginWithScope:k360IDScopeBasic shouldDisplayUI:NO block:^(App360User *user, NSError *error) {
+    if (user) {
+        //login and get user info success
+    } else if (error) {
+        //error => See error object for more information
+    }
+}];
+```
+
+Note: Set `shouldDisplayUI` to `NO` to tell SDK not show login form, just open last session if posible. If `shouldDisplayUI` to `YES` and there's no saved session info, SDK will show login form for user to login.
+
+##Logout
+
+To logout user, just call
+
+```
+[App360IDSDK logout];
+```
+
 
 #Release Notes
 

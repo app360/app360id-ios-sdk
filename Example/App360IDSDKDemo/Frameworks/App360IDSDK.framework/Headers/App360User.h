@@ -45,8 +45,4 @@
 
 @property (nonatomic, assign) NSInteger loginCount;
 
-- (instancetype)initWithJSON:(NSDictionary *)JSON;
-
-+ (void)getUserInfoWithToken:(NSString *)token block:(App360UserResultBlock)block;
-
 @end
