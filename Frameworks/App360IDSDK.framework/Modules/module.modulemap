@@ -1,0 +1,6 @@
+framework module App360IDSDK {
+  umbrella header "App360IDSDK.h"
+
+  export *
+  module * { export * }
+}
