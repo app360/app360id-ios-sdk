@@ -51,14 +51,6 @@ To get started, drag `App360IDSDK.framework` and `MWNetworking.framework` onto *
 
 ![Imgur](http://i.imgur.com/y1cY5gD.png)
 
-Then, drag and drop SDK's bundle into your project
-
-![Imgur](http://i.imgur.com/YoSMVNE.png)
-
-Choose '**Create groups**' and select '**Copy items if needed**' to copy sdk to your project folder
-
-![Imgur](http://i.imgur.com/MOTKyPG.png)
-
 #Integrate SDK into your project
 
 ##Initialize
