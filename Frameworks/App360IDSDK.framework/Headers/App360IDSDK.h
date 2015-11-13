@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 
 #import "App360Constants.h"
-
 #import "App360User.h"
 
 //! Project version number for OpenIDSDK.
@@ -18,7 +17,7 @@ FOUNDATION_EXPORT double OpenIDSDKVersionNumber;
 //! Project version string for OpenIDSDK.
 FOUNDATION_EXPORT const unsigned char OpenIDSDKVersionString[];
 
-
+#define SDK_VERSION     @"2.0.0"
 
 @interface App360IDSDK : NSObject
 
@@ -38,7 +37,7 @@ FOUNDATION_EXPORT const unsigned char OpenIDSDKVersionString[];
  *  @param block            The block to execute
  It should have the following argument signature: `^(App360User *user, NSError *error)`.
  */
-+ (void)loginWithScope:(NSString *)scope shouldDisplayUI:(BOOL)shouldDisplayUI block:(App360UserResultBlock)block;
++ (void)loginWithScope:(NSString *)scope shouldDisplayUI:(BOOL)shouldDisplayUI fromController:(UIViewController *)controller block:(App360UserResultBlock)block;
 
 /**
  *  Logout current account

@@ -28,7 +28,7 @@
 
 - (IBAction)onLoginButtonTapped:(id)sender
 {
-    [App360IDSDK loginWithScope:k360IDScopeBasic shouldDisplayUI:YES block:^(App360User *user, NSError *error) {
+    [App360IDSDK loginWithScope:k360IDScopeBasic shouldDisplayUI:YES fromController:self block:^(App360User *user, NSError *error) {
         NSLog(@"Logged user: %@ -> %@", user.userId, user.displayName);
     }];
 }

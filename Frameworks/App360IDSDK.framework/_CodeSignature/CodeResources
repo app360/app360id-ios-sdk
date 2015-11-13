@@ -4,25 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>App360ID.bundle/Images/btn-close.png</key>
-		<data>
-		rzSezJzYAeyOzwxWuJTA9mJa5zo=
-		</data>
-		<key>App360ID.bundle/Images/btn-close@2x.png</key>
-		<data>
-		5YxwdYlcWtS9druMW+jS3BVEoJM=
-		</data>
-		<key>App360ID.bundle/Images/btn-close@3x.png</key>
-		<data>
-		hlY9Z4HxgsQbWRY80hNyUv7ArBM=
-		</data>
 		<key>Headers/App360Constants.h</key>
 		<data>
 		nsO585daEJxM5Z+vvekldqlUHuE=
 		</data>
 		<key>Headers/App360IDSDK.h</key>
 		<data>
-		CSNKSOroQGIS4EMdvFF2rJCK8eQ=
+		J4E0cLYtATJ/vxPMRub80oXuaKo=
 		</data>
 		<key>Headers/App360User.h</key>
 		<data>
@@ -30,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		yC7tlWtFGgF4lzv6fIJiyMXfV1w=
+		I3ErZW0DVxT65dMr9jNvYgpsfBc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -39,25 +27,13 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>App360ID.bundle/Images/btn-close.png</key>
-		<data>
-		rzSezJzYAeyOzwxWuJTA9mJa5zo=
-		</data>
-		<key>App360ID.bundle/Images/btn-close@2x.png</key>
-		<data>
-		5YxwdYlcWtS9druMW+jS3BVEoJM=
-		</data>
-		<key>App360ID.bundle/Images/btn-close@3x.png</key>
-		<data>
-		hlY9Z4HxgsQbWRY80hNyUv7ArBM=
-		</data>
 		<key>Headers/App360Constants.h</key>
 		<data>
 		nsO585daEJxM5Z+vvekldqlUHuE=
 		</data>
 		<key>Headers/App360IDSDK.h</key>
 		<data>
-		CSNKSOroQGIS4EMdvFF2rJCK8eQ=
+		J4E0cLYtATJ/vxPMRub80oXuaKo=
 		</data>
 		<key>Headers/App360User.h</key>
 		<data>

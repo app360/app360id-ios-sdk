@@ -47,9 +47,7 @@ To handle login flow, the project's directory should contain a properties file n
 
 The sample project displays the simplest way to install the SDK inside your app: Dragging & dropping the SDK into your own project.
 
-To get started, drag `App360IDSDK.framework` and `MWNetworking.framework` onto **Embedded Binaries** section :
-
-![Imgur](http://i.imgur.com/y1cY5gD.png)
+To get started, just drag `App360IDSDK.framework` and `MWNetworking.framework` then drop into your project :
 
 #Integrate SDK into your project
 
@@ -73,13 +71,9 @@ To login, call login method
 
 
 ```objective-c
-[App360IDSDK loginWithScope:k360IDScopeBasic shouldDisplayUI:NO block:^(App360User *user, NSError *error) {
-    if (user) {
-        //login and get user info success
-    } else if (error) {
-        //error => See error object for more information
-    }
-}];
+[App360IDSDK loginWithScope:k360IDScopeBasic shouldDisplayUI:YES fromController:self block:^(App360User *user, NSError *error) {
+        NSLog(@"Logged user: %@ -> %@", user.userId, user.displayName);
+    }];
 ```
 
 Note: Set `shouldDisplayUI` to `NO` to tell SDK not show login form, just open last session if posible. If `shouldDisplayUI` to `YES` and there's no saved session info, SDK will show login form for user to login.
@@ -94,6 +88,12 @@ To logout user, just call
 
 
 #Release Notes
+
+##Version 2.0.0
+
+**Release date**: 12 Nov 2015
+
+ - Update brand name and UI
 
 ##Version 1.0.0
 

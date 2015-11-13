@@ -20,10 +20,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
 #error Please set your app id and app secret first then comment this line
-    [App360IDSDK initializeWithAppId:<#your application id#> appSecret:<#you application secret#>];
+    [App360IDSDK initializeWithAppId:<#Your app id#> appSecret:<#Your app secret#>];
     
     //Get user info silently. Don't show login form here
-    [App360IDSDK loginWithScope:k360IDScopeBasic shouldDisplayUI:NO block:^(App360User *user, NSError *error) {
+    [App360IDSDK loginWithScope:k360IDScopeBasic shouldDisplayUI:NO fromController:nil block:^(App360User *user, NSError *error) {
         
     }];
     

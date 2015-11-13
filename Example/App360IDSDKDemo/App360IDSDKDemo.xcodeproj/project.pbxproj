@@ -7,10 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3E83B8091AD678AC00A9CA89 /* App360IDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E83B8071AD678AC00A9CA89 /* App360IDSDK.framework */; };
-		3E83B80C1AD678B300A9CA89 /* App360IDSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3E83B8071AD678AC00A9CA89 /* App360IDSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		3E83B80D1AD678B300A9CA89 /* MWNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E83B8081AD678AC00A9CA89 /* MWNetworking.framework */; };
-		3E83B80E1AD678B300A9CA89 /* MWNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3E83B8081AD678AC00A9CA89 /* MWNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3E14872A1BF5D3F7004E780F /* App360IDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E1487281BF5D3F7004E780F /* App360IDSDK.framework */; };
+		3E14872B1BF5D3F7004E780F /* MWNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E1487291BF5D3F7004E780F /* MWNetworking.framework */; };
 		3ED391DD1AD50A9D00AD3B7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED391DC1AD50A9D00AD3B7F /* main.m */; };
 		3ED391E01AD50A9D00AD3B7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED391DF1AD50A9D00AD3B7F /* AppDelegate.m */; };
 		3ED391E31AD50A9D00AD3B7F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED391E21AD50A9D00AD3B7F /* ViewController.m */; };
@@ -20,24 +18,9 @@
 		3ED392111AD5280100AD3B7F /* app360.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3ED392101AD5280100AD3B7F /* app360.plist */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		3ED392091AD519CE00AD3B7F /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				3E83B80E1AD678B300A9CA89 /* MWNetworking.framework in Embed Frameworks */,
-				3E83B80C1AD678B300A9CA89 /* App360IDSDK.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		3E83B8071AD678AC00A9CA89 /* App360IDSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = App360IDSDK.framework; sourceTree = "<group>"; };
-		3E83B8081AD678AC00A9CA89 /* MWNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MWNetworking.framework; sourceTree = "<group>"; };
+		3E1487281BF5D3F7004E780F /* App360IDSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = App360IDSDK.framework; sourceTree = "<group>"; };
+		3E1487291BF5D3F7004E780F /* MWNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MWNetworking.framework; sourceTree = "<group>"; };
 		3ED391D71AD50A9C00AD3B7F /* App360IDSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App360IDSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ED391DB1AD50A9D00AD3B7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3ED391DC1AD50A9D00AD3B7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -56,8 +39,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E83B8091AD678AC00A9CA89 /* App360IDSDK.framework in Frameworks */,
-				3E83B80D1AD678B300A9CA89 /* MWNetworking.framework in Frameworks */,
+				3E14872B1BF5D3F7004E780F /* MWNetworking.framework in Frameworks */,
+				3E14872A1BF5D3F7004E780F /* App360IDSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,8 +50,8 @@
 		3E83B8061AD678AC00A9CA89 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3E83B8071AD678AC00A9CA89 /* App360IDSDK.framework */,
-				3E83B8081AD678AC00A9CA89 /* MWNetworking.framework */,
+				3E1487281BF5D3F7004E780F /* App360IDSDK.framework */,
+				3E1487291BF5D3F7004E780F /* MWNetworking.framework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -125,7 +108,6 @@
 				3ED391D31AD50A9C00AD3B7F /* Sources */,
 				3ED391D41AD50A9C00AD3B7F /* Frameworks */,
 				3ED391D51AD50A9C00AD3B7F /* Resources */,
-				3ED392091AD519CE00AD3B7F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -142,7 +124,7 @@
 		3ED391CF1AD50A9C00AD3B7F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0620;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = Mwork;
 				TargetAttributes = {
 					3ED391D61AD50A9C00AD3B7F = {
@@ -235,6 +217,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -304,7 +287,8 @@
 				);
 				INFOPLIST_FILE = App360IDSDKDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.mog.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -320,7 +304,8 @@
 				);
 				INFOPLIST_FILE = App360IDSDKDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.mog.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
