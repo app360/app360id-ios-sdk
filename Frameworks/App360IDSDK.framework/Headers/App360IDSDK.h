@@ -17,7 +17,7 @@ FOUNDATION_EXPORT double OpenIDSDKVersionNumber;
 //! Project version string for OpenIDSDK.
 FOUNDATION_EXPORT const unsigned char OpenIDSDKVersionString[];
 
-#define SDK_VERSION     @"2.0.0"
+#define SDK_VERSION     @"2.0.1"
 
 @interface App360IDSDK : NSObject
 

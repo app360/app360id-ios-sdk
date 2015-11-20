@@ -42,7 +42,9 @@
 @property (nonatomic, strong) NSString *facebookId;
 @property (nonatomic, strong) NSString *googleId;
 @property (nonatomic, strong) App360UserSocialInfo *info;
-
 @property (nonatomic, assign) NSInteger loginCount;
+@property (nonatomic, strong) NSString *accessToken;
+
++ (instancetype)currentUser;
 
 @end
